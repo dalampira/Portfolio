@@ -1,0 +1,278 @@
+body{
+  vertical-align: top;
+  background-color:#faebd7;
+}
+#name{
+  font-size:3vw;
+}
+#student{
+  font-size:1.5vw;
+}
+#line{
+  align:right;
+  width:82%;
+  margin-right:25px;
+}
+.container{
+  position:relative;
+}
+.intro {
+  position:relative;
+  text-align: right;
+  color: #2f4f4f;
+  font-family: Montserrat, sans-serif;
+  line-height: 0.5;
+  font-size: 18px;
+  margin: 25px 50px;
+}
+#logoFoto{
+  margin-left:20%;
+  float: left;
+  width: 90px;
+  height: 65px;
+  position:relative;
+}
+
+#developersFoto{
+  float: right;
+  width: 82%;
+  margin: inherit;
+  margin-right: 25px;
+  margin-top: 16px;
+  border: 1px solid grey; 
+  position:relative;
+}
+.details{
+  border: 1px solid grey;
+  border-radius: 15px;
+  width:40%;
+  text-align: center;
+  margin-top: 520px;
+  padding:16px;
+  font-family: Montserrat, sans-serif;
+  color: #2f4f4f;
+  position:relative;
+  left:40%;
+  font-size:1.2vw;
+  
+}
+#label{
+  font-size:2vw;
+  text-decoration: underline;
+  position:relative;
+  padding: 40px;
+  color: #2f4f4f;
+  font-family: Montserrat, sans-serif;
+}
+.images{
+  position:relative;
+  margin-bottom:25px;
+  padding:16px;
+  height:50%;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+#firstImage{
+  margin-right:56px;
+  height:250px;
+  width:250px;
+  border-radius:20px;
+}
+#secondImage{
+  margin-right:56px;
+  height:250px;
+  width:250px;
+  border-radius:20px;
+}
+#thirdImage{
+  margin-right:56px;
+  height:250px;
+  width:250px;
+  border-radius:20px;
+}
+
+@media screen and (max-width:1200px){
+  .details{
+     margin-top: 500px;
+  }
+  .images{
+     margin:auto;
+  }
+}
+@media screen and (min-width:970px) and (max-width:1200px){
+  .details{
+     margin-top: 450px;
+  }
+  #firstImage{
+     margin-right:25px;
+  }
+   #secondImage{
+     margin-right:25px;
+  }
+   #thirdImage{
+     margin-right:25px;
+  }
+   .images{
+     margin:auto;
+  }
+}
+@media screen and (min-width:880px) and (max-width:970px){
+   .images{
+     margin:auto;
+  }
+   .details{
+     margin-top: 400px;
+  }
+  #firstImage{
+     margin-right:10px;
+  }
+   #secondImage{
+     margin-right:10px;
+  }
+   #thirdImage{
+     margin-right:10px;
+  }
+}
+@media screen and (min-width:730px) and (max-width:880px){
+   .details{
+     margin-top: 340px;
+  }
+   #firstImage{
+     margin-right:15px;
+     height:200px;
+     width:200px;
+  }
+   #secondImage{
+     margin-right:15px;
+     height:200px;
+     width:200px;
+  }
+   #thirdImage{
+     margin-right:15px;
+     height:200px;
+     width:200px;
+  }
+   .images{
+     margin:auto;
+  }
+}
+@media screen and (min-width:550px) and (max-width:730px){
+  .details{
+     margin-top: 280px;
+  } 
+    #firstImage{
+     margin-right:15px;
+     height:150px;
+     width:150px;
+  }
+   #secondImage{
+     margin-right:15px;
+     height:150px;
+     width:150px;
+  }
+   #thirdImage{
+     margin-right:15px;
+     height:150px;
+     width:150px;
+  }
+   .images{
+     margin:auto;
+  }
+  
+}
+@media screen and (max-width:550px) and (min-width:450px){
+  .details{
+     margin-top: 240px;
+  } 
+    #firstImage{
+     height:80px;
+     width:70%;
+     margin-bottom:20px;
+  }
+   #secondImage{
+     height:80px;
+     width:70%;
+     margin-bottom:20px;
+  }
+   #thirdImage{
+     height:80px;
+     width:70%;
+     margin-bottom:20px;
+  }
+   .images{
+     margin:auto;
+  }
+  #logoFoto{
+     width: 65px;
+     height: 40px;
+     margin-left:16px;
+  }
+}
+
+@media screen and (max-width:450px) and (min-width:360px){
+  .details{
+     margin-top: 200px;
+  } 
+    #firstImage{
+     height:80px;
+     width:80%;
+     margin-bottom:20px;
+  }
+   #secondImage{
+     height:80px;
+     width:80%;
+     margin-bottom:20px;
+  }
+   #thirdImage{
+     height:80px;
+     width:80%;
+     margin-bottom:20px;
+  }
+   .images{
+     margin:auto;
+  }
+  #logoFoto{
+     width: 65px;
+     height: 40px;
+     margin-left:16px;
+  }
+}
+
+@media screen and (max-width:360px){
+  .details{
+     margin-top: 170px;
+  } 
+    #firstImage{
+      height:100px;
+      width:100%;
+      margin-bottom:20px;
+      flex:auto;
+  }
+   #secondImage{
+     height:100px;
+     width:100%;
+     margin-bottom:20px;
+     flex:auto;
+  }
+   #thirdImage{
+     height:100px;
+     width:100%;
+     margin-bottom:20px;
+     flex:auto;    
+  }
+   .images{
+     flex-direction: column;
+     margin-right: 15px;
+     margin-left: 25px;     
+  }
+  #logoFoto{
+     width: 45px;
+     height: 30px;
+     margin-left:16px;
+  }
+  #label{
+     margin-bottom:5px;
+  }
+}
